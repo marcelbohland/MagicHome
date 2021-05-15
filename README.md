@@ -6,8 +6,8 @@ A Python library for MagicHome Wifi RGB controller
 create
 ````python
 controll.ip = "192.168.178.32"
-mh = controll.MagicHome()
-mh.turn_off()
+magicHome = controll.MagicHome()
+magicHome.turn_off()
 ````
 
 Turn on/off
