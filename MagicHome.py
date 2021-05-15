@@ -3,6 +3,7 @@ import socket
 import struct
 import threading
 
+ip = "192.168.0.1"
 
 class bcolors:
     OKGREEN = '\033[92m'
@@ -31,7 +32,7 @@ class MagicHome:
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         try:
             print("Open connection...")
-            self.s.connect(("YOUR IP ADDRESS HERE", 5577))
+            self.s.connect((ip, 5577))
             print("Connection open")
         except socket.error as e:
             print(bcolors.WARNING + "exception socket.error : %s" % e)
@@ -155,8 +156,8 @@ class MagicHome:
         self.pulse = 0
 
 
-magicHome = MagicHome()
 
+#ip = "192.168.0.1"
 # Turn on/off
 # magicHome.turn_on()
 # magicHome.turn_off()
