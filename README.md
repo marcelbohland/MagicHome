@@ -3,10 +3,16 @@ A Python library for MagicHome Wifi RGB controller
 
 [![current version](https://img.shields.io/badge/current%20version-1.0.0-green.svg)](https://github.com/marcelbohland/MagicHome/releases/tag/1.0.0)
 
-create
+1. Download the MagicHome.py and add it to your project.
+2. Copy the "Create" part to your project.
+3. Change the IP-Address to your IP-Address
+
+Create
 ````python
-controll.ip = "192.168.178.32"
-magicHome = controll.MagicHome()
+import MagicHome
+
+MagicHome.ip = "192.168.0.1"
+magicHome = MagicHome.MagicHome()
 magicHome.turn_off()
 ````
 
