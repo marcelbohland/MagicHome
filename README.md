@@ -46,6 +46,22 @@ rgbPulse.start()
 magicHome.stopRgbPulse()
 ````
 
+Custom RGB Fade
+````python
+magicBuild.sleep = 0.1
+
+# Calculates from each RGB value - 100 and + 100
+magicBuild.fadeIntense = 100
+
+# disable R,G or B with 0 (This value does not change then)
+magicBuild.enableR = 0
+magicBuild.enableG = 0
+magicBuild.enableB = 0
+
+# RGB Code
+magicBuild.fade(100,100,100)
+````
+
 send [Turn on]
 ````python
 magicHome.send(0x71, 0x23, 0x0F, 0xA3)
