@@ -1,7 +1,7 @@
 # MagicHome
 A Python library for MagicHome Wifi RGB controller
 
-[![current version](https://img.shields.io/badge/current%20version-1.0.0-green.svg)](https://github.com/marcelbohland/MagicHome/releases/tag/1.0.0)
+[![current version](https://img.shields.io/badge/current%20version-1.0.1-green.svg)](https://github.com/marcelbohland/MagicHome/releases/tag/1.0.1)
 [![license](https://img.shields.io/badge/license-Apache%20License%202.0-red.svg)](https://github.com/marcelbohland/MagicHome/blob/main/LICENSE)
 
 1. Download the MagicHome.py and add it to your project.
