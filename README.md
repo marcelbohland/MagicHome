@@ -13,7 +13,7 @@ Create
 import MagicHome
 
 MagicHome.ip = "192.168.0.1"
-magicHome = MagicHome.MagicHome()
+magicHome = MagicHome.Controller()
 magicHome.turn_off()
 ````
 
