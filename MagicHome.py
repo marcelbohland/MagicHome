@@ -25,7 +25,7 @@ def checksumme(bytes):
     return sum(bytes) & 0xFF
 
 
-class MagicHome:
+class Controller:
     def __init__(self):
         self.policeMode = 0
         self.fade = 0
@@ -186,7 +186,7 @@ class MagicBuild:
     # Create a self designed fade effect
     def fade(self, R, G, B):
 
-        magicHome = MagicHome()
+        magicHome = Controller()
 
         startR = R - self.fadeIntense
         startG = G - self.fadeIntense
